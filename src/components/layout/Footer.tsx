@@ -30,7 +30,7 @@ const Footer = () => {
                                     className="p-2 rounded-md text-foreground-muted hover:text-foreground hover:bg-surface transition-geist"
                                     aria-label="Social link"
                                 >
-                                    <img src={icon} alt={`Follow us on ${icon.split('/').pop()?.split('.')[0]}`} className='size-18' />
+                                    <img src={icon} alt={`Follow us on ${icon.split('/').pop()?.split('.')[0]}`} width={18} height={18} />
                                 </a>
                             ))}
                         </div>
