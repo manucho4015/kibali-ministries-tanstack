@@ -159,8 +159,8 @@ function About() {
                   <p className="text-xs font-mono text-primary mt-1">{leader.title}</p>
                   <p className="text-sm text-foreground-secondary mt-3 leading-relaxed">{leader.bio}</p>
                   <div className="flex items-center justify-center gap-2 mt-4">
-                    <a href="#" className="p-1.5 rounded text-foreground-muted hover:text-foreground transition-geist"><img src='x.svg' className='size-4' /></a>
-                    <a href="#" className="p-1.5 rounded text-foreground-muted hover:text-foreground transition-geist"><img src='instagram.svg' className='size-4' /></a>
+                    <a href="#" className="p-1.5 rounded text-foreground-muted hover:text-foreground transition-geist"><img src='x.svg' width={16} height={16} /></a>
+                    <a href="#" className="p-1.5 rounded text-foreground-muted hover:text-foreground transition-geist"><img src='instagram.svg' width={16} height={16} /></a>
                   </div>
                 </div>
               </ScrollReveal>
