@@ -180,13 +180,13 @@ const TweetCard = ({ post }: { post: Post }) => (
     <div className="p-5">
       <div className="flex items-center gap-3 mb-3">
         <div className="w-8 h-8 rounded-full bg-surface border border-border flex items-center justify-center">
-          <img src='x.svg' className='size-4 text-foreground-muted' />
+          <img src='x.svg' className='text-foreground-muted' width={16} height={16} />
         </div>
         <div>
           <p className="text-sm font-semibold text-foreground">Kibali Ministry</p>
           <p className="text-[10px] font-mono text-foreground-muted">{post.handle}</p>
         </div>
-        <img src='x.svg' className='size-4 ml-auto text-foreground-muted' />
+        <img src='x.svg' className='ml-auto text-foreground-muted' width={16} height={16} />
       </div>
       <p className="text-sm text-foreground leading-relaxed">{post.body}</p>
       <p className="text-[10px] font-mono text-foreground-muted mt-3">{post.date}</p>
@@ -212,7 +212,7 @@ const InstagramCard = ({ post }: { post: Post }) => (
   <div className="rounded-lg border border-border bg-card hover:border-border-hover transition-geist overflow-hidden group cursor-pointer">
     <AspectRatio ratio={1}>
       <div className="w-full h-full bg-surface flex items-center justify-center relative">
-        <img src='instagram.svg' className='size-8 text-foreground-muted/30' />
+        <img src='instagram.svg' className='text-foreground-muted/30' width={26} height={26} />
         <div className="absolute inset-0 bg-background/60 opacity-0 group-hover:opacity-100 transition-geist flex items-center justify-center gap-4">
           <span className="flex items-center gap-1 text-sm text-foreground font-medium">
             <Heart size={16} /> {post.likes}
@@ -313,7 +313,7 @@ function Announcements() {
             <ScrollReveal>
               <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center gap-3">
-                  <img src='instagram.svg' className='size-6 text-foreground' />
+                  <img src='instagram.svg' className='text-foreground' width={20} height={20} />
                   <div>
                     <h2 className="text-lg font-display font-bold text-foreground">Follow Our Journey</h2>
                     <p className="text-xs font-mono text-foreground-muted">@kibaliministry</p>
@@ -343,7 +343,7 @@ function Announcements() {
             <ScrollReveal>
               <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center gap-3">
-                  <img src='x.svg' className='size-6 text-foreground' />
+                  <img src='x.svg' className='text-foreground' width={20} height={20} />
                   <div>
                     <h2 className="text-lg font-display font-bold text-foreground">Latest on X</h2>
                     <p className="text-xs font-mono text-foreground-muted">@kibaliministry</p>
