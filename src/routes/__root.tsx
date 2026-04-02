@@ -14,6 +14,7 @@ import appCss from '@/styles/app.css?url'
 import indexCss from '@/styles/index.css?url'
 import { seo } from '@/utils/seo'
 import { AnimatePresence } from 'motion/react'
+import BottomTabBar from '@components/layout/BottomTabBar'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -82,6 +83,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         </main>
         <TanStackRouterDevtools position="bottom-right" />
         <Scripts />
+        <BottomTabBar />
       </body>
     </html>
   )
