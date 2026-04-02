@@ -23,7 +23,7 @@ const Footer = () => {
                             A community rooted in faith, love, and purpose. Join us every Sunday.
                         </p>
                         <div className="flex items-center gap-3 mt-5">
-                            {['/youtube.svg', '/instagram.svg', '/twitter.svg', '/facebook.svg'].map((icon, i) => (
+                            {['/youtube.svg', '/instagram.svg', '/x.svg', '/facebook.svg'].map((icon, i) => (
                                 <a
                                     key={i}
                                     href="#"
